@@ -14,10 +14,10 @@ composer_version: "2"
 web_environment: []
 corepack_enable: false
 web_extra_exposed_ports:
-    - name: reverb
-      container_port: 8000
-      http_port: 8080
-      https_port: 8001
+  - name: reverb
+    container_port: 8080
+    http_port: 8080
+    https_port: 8001
 # Key features of DDEV's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
